@@ -1,1 +1,0 @@
-c:\Users\User\Documents\lab-2(c02).fprg
