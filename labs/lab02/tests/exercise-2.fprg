@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-2"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-28 10:02:54 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtQjhRSUZJT1Y7MjAyNi0wNi0yODswOTozMzo0MSBQTTsyNzk4"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtQjhRSUZJT1Y7MjAyNi0wNi0yODsxMDowMjo1NCBQTTsxOzI4OTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pricepermetre, lengthincm, totallength, lengthinmetre, totalprice" type="Real" array="False" size=""/>
+            <input variable="lengthincm"/>
+            <input variable="pricepermetre"/>
+            <assign variable="totallength" expression="(lengthincm*0.10)+lengthincm"/>
+            <assign variable="lengthinmetre" expression="totallength/100"/>
+            <assign variable="totalprice" expression="lengthinmetre*pricepermetre"/>
+            <output expression="totalprice" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
