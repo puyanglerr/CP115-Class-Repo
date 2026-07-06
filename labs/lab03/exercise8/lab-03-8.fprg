@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-8"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-01 10:06:07 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtQjhRSUZJT1Y7MjAyNi0wNy0wMTswOTo0NDoxMCBQTTsyNzg4"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtQjhRSUZJT1Y7MjAyNi0wNy0wMTsxMDowNjowNyBQTTsxOzI4OTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="principal, rate, time, simpleInterest, monthlyInterest, totalAmount" type="Real" array="False" size=""/>
+            <input variable="principal"/>
+            <input variable="rate"/>
+            <input variable="time"/>
+            <assign variable="simpleInterest" expression="principal*(rate/100)*time"/>
+            <assign variable="monthlyInterest" expression="simpleInterest/(time*12)"/>
+            <assign variable="totalAmount" expression="simpleInterest+principal"/>
+            <output expression="simpleInterest" newline="True"/>
+            <output expression="monthlyInterest" newline="True"/>
+            <output expression="totalAmount" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

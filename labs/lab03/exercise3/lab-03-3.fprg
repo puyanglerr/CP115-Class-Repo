@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-3"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-01 08:01:00 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtQjhRSUZJT1Y7MjAyNi0wNy0wMTswNzozOTo1OCBQTTsyODAy"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtQjhRSUZJT1Y7MjAyNi0wNy0wMTswODowMTowMCBQTTsxOzI4ODc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kilobyte, megabyte, gigabyte, terabyte, petabyte" type="Integer" array="False" size=""/>
+            <input variable="kilobyte"/>
+            <assign variable="megabyte" expression="kilobyte/1000"/>
+            <assign variable="gigabyte" expression="kilobyte/1000000"/>
+            <assign variable="terabyte" expression="kilobyte/1000000000"/>
+            <assign variable="petabyte" expression="kilobyte/1000000000000"/>
+            <output expression="megabyte" newline="True"/>
+            <output expression="gigabyte" newline="True"/>
+            <output expression="terabyte" newline="True"/>
+            <output expression="petabyte" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

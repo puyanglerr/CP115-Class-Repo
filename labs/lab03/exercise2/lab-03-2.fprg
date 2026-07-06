@@ -4,19 +4,33 @@
         <attribute name="name" value="lab-03-2"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
+<<<<<<< HEAD
         <attribute name="saved" value="2026-06-30 03:33:45 PM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0zMDswMzoxMjozMCBQTTsyNzQz"/>
         <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0zMDswMzozMzo0NSBQTTsyOzI4NjE="/>
+=======
+        <attribute name="saved" value="2026-07-01 05:06:36 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtQjhRSUZJT1Y7MjAyNi0wNy0wMTswNDo1ODoxOSBQTTsyNzk3"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtQjhRSUZJT1Y7MjAyNi0wNy0wMTswNTowNjozNiBQTTsxOzI4OTg="/>
+>>>>>>> 54d68d4f2862df0fac880f76bc03e9dec41bf0c3
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+<<<<<<< HEAD
             <declare name="basicrate, servicecharge, numNight, totalPayment" type="Real" array="False" size=""/>
             <input variable="numNight"/>
             <assign variable="basicrate" expression="250*numNight"/>
             <assign variable="servicecharge" expression="(15/100)*basicrate"/>
             <assign variable="totalPayment" expression="basicrate+servicecharge"/>
             <output expression="totalPayment" newline="True"/>
+=======
+            <declare name="basicRate, serviceCharge, numNight, totalPayment" type="Integer" array="False" size=""/>
+            <input variable="numNight"/>
+            <assign variable="basicRate" expression="250*numNight"/>
+            <assign variable="serviceCharge" expression="(15/100)*250"/>
+            <assign variable="totalPayment" expression="basicRate+serviceCharge"/>
+>>>>>>> 54d68d4f2862df0fac880f76bc03e9dec41bf0c3
         </body>
     </function>
 </flowgorithm>
