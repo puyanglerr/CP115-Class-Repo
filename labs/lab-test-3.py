@@ -1,3 +1,4 @@
+#beatrice puyang C02
 monthly_usage = int(input("Enter monthly usage: "))
 if monthly_usage < 50:
     amount_bill = monthly_usage
